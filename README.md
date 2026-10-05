@@ -17,7 +17,7 @@ Mechanical design complete in SolidWorks.
 - [CAD / STEP file](cad/robot_arm_assembly.step) - SolidWorks and STEP files for the arm and gripper
 <!-- - `electronics/` - wiring diagram -->
 <!-- - `code/` - controller code -->
-- [Arm Render](docs/arm_render.png) - photos and renders
+- [Arm Render](docs/robotarm_render.png) - photos and renders
 - [BOM](docs/BOM.xlsx) - bill of materials with costs and links
 - `LICENSE` - MIT license
 
