@@ -1,4 +1,3 @@
-# desktop-5dof-robot-arm
 # Desktop 5-DOF Robotic Arm
 
 A low-cost, five-degree-of-freedom desktop robotic arm that simulates real-world manufacturing tasks such as picking up, moving, and placing small parts. Built as a hands-on, affordable platform for learning mechatronics, robotics, and automation.
