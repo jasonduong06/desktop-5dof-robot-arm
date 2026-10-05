@@ -18,7 +18,7 @@ Mechanical design complete in SolidWorks.
 <!-- - `electronics/` - wiring diagram -->
 <!-- - `code/` - controller code -->
 - `docs/arm_render.png` - photos and renders
-- `BOM.md` (or `BOM.csv`) - bill of materials with costs and links
+- [BOM](docs/BOM.pdf) - bill of materials with costs and links
 - `LICENSE` - MIT license
 
 ## Hardware
