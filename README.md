@@ -14,10 +14,10 @@ Mechanical design complete in SolidWorks.
 - Target payload of about 20 g (small items such as chips or light foam blocks)
 
 ## Repository contents
-- `cad/` - SolidWorks and STEP files for the arm and gripper
-- `electronics/` - wiring diagram
-- `code/` - controller code
-- `docs/` - photos and renders
+- `cad/robot_arm_assembly.step` - SolidWorks and STEP files for the arm and gripper
+<!-- - `electronics/` - wiring diagram -->
+<!-- - `code/` - controller code -->
+- `docs/arm_render.png` - photos and renders
 - `BOM.md` (or `BOM.csv`) - bill of materials with costs and links
 
 ## Hardware
