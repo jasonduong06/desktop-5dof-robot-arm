@@ -18,7 +18,7 @@ Mechanical design complete in SolidWorks.
 <!-- - `electronics/` - wiring diagram -->
 <!-- - `code/` - controller code -->
 - [Arm Render](docs/robotarm_render.png) - photos and renders
-- [BOM](docs/BOM.xlsx) - bill of materials with costs and links
+- [BOM](docs/BOM.png) - bill of materials with costs and links
 - `LICENSE` - MIT license
 
 ## Hardware
