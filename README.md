@@ -2,13 +2,12 @@
 
 A low-cost, five-degree-of-freedom desktop robotic arm that simulates real-world manufacturing tasks such as picking up, moving, and placing small parts. Built as a hands-on, affordable platform for learning mechatronics, robotics, and automation.
 
-![Arm render](docs/arm_render.png)
 
 ## Status
-Mechanical design complete in SolidWorks. [Prototype build in progress / update this as you go.]
+Mechanical design complete in SolidWorks. 
 
 ## Features
-- 5 degrees of freedom, driven by 5 servo motors (9g class)
+- 5 degrees of freedom, driven by 5 servo motors
 - Gripper end effector for picking up small, lightweight items
 - Manual mode: potentiometers control each joint directly
 - Automatic mode: pre-loaded action sequences for pick-and-place demos
@@ -22,10 +21,10 @@ Mechanical design complete in SolidWorks. [Prototype build in progress / update 
 - `BOM.md` (or `BOM.csv`) - bill of materials with costs and links
 
 ## Hardware
-- Controller: [Arduino Nano / ESP32 / etc.]
-- Servos: [model, e.g. SG90 9g] x [number]
-- Power: [5V, X A supply]
-- Structure: [3D printed in PLA / other]
+- Controller: Arduino Nano
+- Servos: SG90 9g x 5
+- Power: 5V 
+- Structure: 3D printed in PLA
 
 ## How it works
 1. In manual mode, each potentiometer sets the angle of one joint.
@@ -39,7 +38,7 @@ Mechanical design complete in SolidWorks. [Prototype build in progress / update 
 
 ## License
 - Code: MIT
-- Hardware design files: [CERN-OHL-P, or MIT if you only added one license]
+- Hardware design files: MIT
 
 ## Author
 Jason Duong - Mechatronic Systems Engineering, Western University
