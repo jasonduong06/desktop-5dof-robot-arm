@@ -23,7 +23,7 @@ Mechanical design complete in SolidWorks.
 
 ## Hardware
 - Controller: Arduino Nano
-- Servos: SG90 9g x 5
+- Servos: MG90S 9g x 4 and SG90 9g x 1
 - Power: 5V 
 - Structure: 3D printed in PLA
 
