@@ -49,3 +49,7 @@ Jason Duong - Mechatronic Systems Engineering, Western University
 Wokwi simulation of the Arduino Nano with 5 servos and 5 potentiometers (see `wokwi/diagram.json`).
 
 ![Wokwi circuit](images/wokwi-circuit.png)
+## Circuit
+Wokwi simulation of the Arduino Nano with 5 servos and 5 potentiometers (see `wokwi/diagram.json`).
+
+![Wokwi circuit](images/wokwi-circuit.png)
