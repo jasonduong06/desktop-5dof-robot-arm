@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "author": "arm",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-nano",
+      "id": "nano",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -180,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 260,
+      "left": -120,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo2",
+      "top": -90,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot2",
+      "top": 260,
+      "left": -10,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo3",
+      "top": 0,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot3",
+      "top": 260,
+      "left": 100,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo4",
+      "top": 90,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot4",
+      "top": 260,
+      "left": 210,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo5",
+      "top": 180,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot5",
+      "top": 260,
+      "left": 320,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "servo1:PWM",
+      "nano:3",
+      "orange",
+      []
+    ],
+    [
+      "servo1:V+",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "servo1:GND",
+      "nano:GND.2",
+      "black",
+      []
+    ],
+    [
+      "pot1:SIG",
+      "nano:A0",
+      "green",
+      []
+    ],
+    [
+      "pot1:VCC",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "pot1:GND",
+      "nano:GND.1",
+      "black",
+      []
+    ],
+    [
+      "servo2:PWM",
+      "nano:5",
+      "gold",
+      []
+    ],
+    [
+      "servo2:V+",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "servo2:GND",
+      "nano:GND.2",
+      "black",
+      []
+    ],
+    [
+      "pot2:SIG",
+      "nano:A1",
+      "green",
+      []
+    ],
+    [
+      "pot2:VCC",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "pot2:GND",
+      "nano:GND.1",
+      "black",
+      []
+    ],
+    [
+      "servo3:PWM",
+      "nano:6",
+      "blue",
+      []
+    ],
+    [
+      "servo3:V+",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "servo3:GND",
+      "nano:GND.2",
+      "black",
+      []
+    ],
+    [
+      "pot3:SIG",
+      "nano:A2",
+      "green",
+      []
+    ],
+    [
+      "pot3:VCC",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "pot3:GND",
+      "nano:GND.1",
+      "black",
+      []
+    ],
+    [
+      "servo4:PWM",
+      "nano:9",
+      "purple",
+      []
+    ],
+    [
+      "servo4:V+",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "servo4:GND",
+      "nano:GND.2",
+      "black",
+      []
+    ],
+    [
+      "pot4:SIG",
+      "nano:A3",
+      "green",
+      []
+    ],
+    [
+      "pot4:VCC",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "pot4:GND",
+      "nano:GND.1",
+      "black",
+      []
+    ],
+    [
+      "servo5:PWM",
+      "nano:10",
+      "magenta",
+      []
+    ],
+    [
+      "servo5:V+",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "servo5:GND",
+      "nano:GND.2",
+      "black",
+      []
+    ],
+    [
+      "pot5:SIG",
+      "nano:A4",
+      "green",
+      []
+    ],
+    [
+      "pot5:VCC",
+      "nano:5V",
+      "red",
+      []
+    ],
+    [
+      "pot5:GND",
+      "nano:GND.1",
+      "black",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
